@@ -1,11 +1,11 @@
-interface ProductDesc {
+export interface ProductDesc {
     sku: string;
     name: string;
     price: number;
   }
 
 
-interface PricingRule {
+export interface PricingRule {
     applyRule(items: ProductDesc[]): number;
 }
   
