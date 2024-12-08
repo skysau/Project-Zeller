@@ -15,5 +15,7 @@ For the Super iPad, a bulk discount is applied. If a customer buys more than 4 u
 ### Modular Design
 - **Product Storage**: A separate file manages product details and their storage to keep the logic organized and scalable.
 - **Pricing Rules**: Each pricing rule is implemented in its own file to allow flexibility and make it easier to add or modify rules in the future.
+-  **Testing**: A separate file `main.ts` which test details and their expected output.
+
 
 This approach ensures the system is flexible, dynamic, and easy to extend for future pricing rules or product additions.
